@@ -1,0 +1,15 @@
+ENTRY
+
+
+
+start 
+			MOV			R0, #0x14000000
+			MOV			R1, #45
+			MOV			R2, #42
+			STR 		     R2, [R0], #4;
+			LDR			R3,[R0] ;
+
+stop
+
+			END 
+			
